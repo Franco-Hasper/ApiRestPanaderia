@@ -1,4 +1,3 @@
-<p align="center">
 Descargue el proyecto;
 Abra una terminal de comando;
 Dirijase a la ubicacion donde guardo el proyecto con el comando cd "carpeta raiz del proyecto";
@@ -6,45 +5,56 @@ Una vez alli ejecute el comando "php artisan serve";
 Abra su navegador e inserte la direccion que le proporciona el cmd.
 Dentro del navegador puede insertar las siguientes rutas definidas para obtener los datos: 
 Aclaracion:en mi caso la ruta raiz por defecto es http://127.0.0.1:8000/ tenga en cuenta que esto puede llegar a variar en su equipo en cuyo caso simplemente reemplazelo con la ruta que le sea proporcionada:
-</p>
+
 <br>
 <p align="center">Seccion Datos Cliente</p>
 <br>
+
 Se obtiene un arreglo con todos los datos de la tabla clientes:
+<br>
 http://127.0.0.1:8000/api/listaClientes 
-
+<br><br>
 Se obtiene un arreglo con los datos de la tabla clientes mediante una id proporcionada, en este caso 3:
+<br>
 http://127.0.0.1:8000/api/listaClientes/byId/3
-
+<br><br>
 Se obtiene un arreglo con los datos de la tabla clientes mediante el nombre del cliente proporcionado en este caso Consumidor:
+<br>
 http://127.0.0.1:8000/api/listaClientes/byName/Consumidor
-
+<br><br>
 Se obtiene un arreglo con los datos de la tabla clientes mediante el apellido del cliente proporcionado en este caso Final:
+<br>
 http://127.0.0.1:8000/api/listaClientes/byLastName/Final
 <br>
-
+<br>
 <p align="center">Seccion Datos Precios Productos</p>
 <br>
 Se obtiene un arreglo con todos los datos de la tabla precio_producto:
-http://127.0.0.1:8000/api/listaPrecios
-
-Se obtiene un arreglo con los datos de la tabla precio_producto mediante una id proporcionada, en este caso 1:
-http://127.0.0.1:8000/api/listaPrecios/byId/1
-
-Se obtiene un arreglo con los datos de la tabla precio_producto mediante el id de un producto proporcionado, en este caso 5:
-http://127.0.0.1:8000/api/listaPrecios/byProductoId/5
 <br>
+http://127.0.0.1:8000/api/listaPrecios
+<br><br>
+Se obtiene un arreglo con los datos de la tabla precio_producto mediante una id proporcionada, en este caso 1:
+<br>
+http://127.0.0.1:8000/api/listaPrecios/byId/1
+<br><br>
+Se obtiene un arreglo con los datos de la tabla precio_producto mediante el id de un producto proporcionado, en este caso 5:
+<br>
+http://127.0.0.1:8000/api/listaPrecios/byProductoId/5
+<br><br>
 <p align="center">Seccion Datos Productos</p>
 <br>
 Se obtiene un arreglo con todos los datos de la tabla productos:
+<br>
 http://127.0.0.1:8000/api/listaProductos
-
+<br><br>
 Se obtiene un arreglo con los datos de la tabla productos mediante una id proporcionada, en este caso 1:
+<br>
 http://127.0.0.1:8000/api/listaProductos/byId/1
-
+<br><br>
 Se obtiene un arreglo con los datos de la tabla productos mediante el nombre del producto proporcionado en este caso Torta
+<br>
 http://127.0.0.1:8000/api/listaProductos/byName/Torta
-
+<br><br>
 Por el momento estas son las solicitudes con las que se va a trabajar en la pgina web del comercio Panaderia, en un futuro podrian agregarse mas si la situación lo amerita.
 
 
